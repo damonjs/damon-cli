@@ -1,6 +1,6 @@
 {
   "name": "damon-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A CLI for the damon tool.",
   "main": "index.js",
   "scripts": {
