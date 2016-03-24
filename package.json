@@ -1,0 +1,39 @@
+{
+  "name": "damon-cli",
+  "version": "0.0.1",
+  "description": "A CLI for the damon tool.",
+  "main": "index.js",
+  "scripts": {
+    "preversion": "npm test",
+    "postversion": "npm run changelog",
+    "pretest": "npm run format && npm run lint",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "jscs ./index.js",
+    "lint": "eslint ./index.js",
+    "changelog": "node ./bin/changelog.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damonjs/damon-cli.git"
+  },
+  "bin": {
+    "damon": "index.js"
+  },
+  "keywords": [
+    "cli",
+    "test",
+    "damon",
+    "damonjs"
+  ],
+  "author": "Yoann Moinet <yo@nnmoi.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/damonjs/damon-cli/issues"
+  },
+  "homepage": "https://github.com/damonjs/damon-cli#readme",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "commander": "^2.9.0",
+    "damon": "^0.2.1"
+  }
+}
