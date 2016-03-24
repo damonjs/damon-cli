@@ -34,5 +34,8 @@
     "chalk": "^1.1.1",
     "commander": "^2.9.0",
     "damon": "^0.2.1"
+  },
+  "devDependencies": {
+    "conventional-changelog": "^1.1.0"
   }
 }
