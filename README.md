@@ -4,9 +4,7 @@
 
 ![logo](./media/demo.gif)
 
-`damon` is a CLI that runs on [CasperJS](http://casperjs.org/) which runs on [PhantomJS](http://phantomjs.org/).
-
-He feeds on JSON files that describe what tasks he needs to achieve on specified starting URL.
+`damon` is the CLI for the [damon engine](https://github.com/yoannmoinet/damon).
 
 ```bash
 Usage:
