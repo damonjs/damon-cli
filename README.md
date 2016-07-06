@@ -19,6 +19,11 @@ Options:
    -V, --version  output the version number
 ```
 
+## Damon Projects
+
+- [👤 Engine](https://github.com/damonjs/damon).
+- [💬 Reporter](https://github.com/damonjs/damon-reporter).
+
 ## Installation
 
 via NPM :
